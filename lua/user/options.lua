@@ -60,3 +60,7 @@ vim.g.clipboard = {
   },
   cache_enabled = 0,
 }
+
+
+-- NOTE: Random(dev)
+vim.g.copilot_no_tab_map = true
