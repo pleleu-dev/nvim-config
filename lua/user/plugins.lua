@@ -43,7 +43,7 @@ return packer.startup(function(use)
   use { "wbthomason/packer.nvim" } -- Have packer manage itself
   use { "nvim-lua/plenary.nvim" }  -- Useful lua functions used by lots of plugins
   use { "windwp/nvim-autopairs" }  -- Autopairs, integrates with both cmp and treesitter
-  use { "numToStr/Comment.nvim" }
+  use { "tpope/vim-commentary" }
   use { "JoosepAlviste/nvim-ts-context-commentstring" }
   use { "kyazdani42/nvim-web-devicons" }
   use { "akinsho/bufferline.nvim" }
@@ -57,6 +57,8 @@ return packer.startup(function(use)
 
   -- Colorschemes
   use { "folke/tokyonight.nvim" }
+  use { "morhetz/gruvbox" }
+  use { "rebelot/kanagawa.nvim" }
 
   -- Cmp
   use { "hrsh7th/nvim-cmp" }         -- The completion plugin
@@ -101,6 +103,9 @@ return packer.startup(function(use)
 
   -- Copilot
   use { "github/copilot.vim" }
+
+  -- Jest
+  use 'mattkubej/jest.nvim'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

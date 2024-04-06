@@ -21,7 +21,12 @@ function M.config()
 
     context_commentstring = {
       enable = true,
-      enable_autocmd = false,
+      commentary_integration = {
+      -- change default mapping
+        Commentary = 'g/',
+      -- disable default mapping
+        CommentaryLine = false,
+      },
     },
   }
 end
