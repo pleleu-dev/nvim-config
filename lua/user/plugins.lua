@@ -107,6 +107,16 @@ return packer.startup(function(use)
   -- Jest
   use 'mattkubej/jest.nvim'
 
+  -- Lightspeed
+  use 'ggandor/lightspeed.nvim'
+
+
+  use { "AckslD/nvim-neoclip.lua",
+  requires = {
+   {'nvim-telescope/telescope.nvim'},
+  }
+}
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
