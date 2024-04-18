@@ -73,11 +73,12 @@ return packer.startup(function(use)
   use { "rafamadriz/friendly-snippets" } -- a bunch of snippets to use
 
   -- LSP
-  use { "neovim/nvim-lspconfig" }           -- enable LSP
-  use { "williamboman/mason.nvim" }         -- simple to use language server installer
+  use { "neovim/nvim-lspconfig" }   -- enable LSP
+  use { "williamboman/mason.nvim" } -- simple to use language server installer
   use { "williamboman/mason-lspconfig.nvim" }
-  use { "jose-elias-alvarez/null-ls.nvim" } -- for formatters and linters
   use { "RRethy/vim-illuminate" }
+  use { "stevearc/conform.nvim" }  -- LSP formatter
+  use { "mfussenegger/nvim-lint" } -- LSP linter
 
   -- Treesitter
   use {
@@ -110,12 +111,12 @@ return packer.startup(function(use)
   -- Lightspeed
   use 'ggandor/lightspeed.nvim'
 
-
+  -- Yank
   use { "AckslD/nvim-neoclip.lua",
-  requires = {
-   {'nvim-telescope/telescope.nvim'},
+    requires = {
+      { 'nvim-telescope/telescope.nvim' },
+    }
   }
-}
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
