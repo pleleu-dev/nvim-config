@@ -16,5 +16,8 @@ require "user.alpha"
 require "user.whichkey"
 require "user.autocommands"
 require "user.neogit"
+require "user.jest"
 require "user.neoclip"
 require "user.conform"
+require "user.lint"
+

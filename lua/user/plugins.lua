@@ -76,7 +76,8 @@ return packer.startup(function(use)
   use { "williamboman/mason.nvim" } -- simple to use language server installer
   use { "williamboman/mason-lspconfig.nvim" }
   use { "RRethy/vim-illuminate" }
-  use { "stevearc/conform.nvim" } -- LSP formatter
+  use { "stevearc/conform.nvim" }  -- LSP formatter
+  use { "mfussenegger/nvim-lint" } -- LSP linter
 
   -- Treesitter
   -- use {
@@ -102,6 +103,9 @@ return packer.startup(function(use)
 
   -- Copilot
   use { "github/copilot.vim" }
+
+  -- Jest
+  use 'mattkubej/jest.nvim'
 
   -- Lightspeed
   use 'ggandor/lightspeed.nvim'
