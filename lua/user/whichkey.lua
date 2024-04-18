@@ -108,6 +108,7 @@ local mappings = {
     u = { "<cmd>PackerUpdate<cr>", "Update" },
   },
 
+
   g = {
     name = "Git",
     g = { "<cmd>Neogit<CR>", "Neogit" },

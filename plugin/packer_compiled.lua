@@ -114,6 +114,11 @@ _G.packer_plugins = {
     path = "/home/piele/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["conform.nvim"] = {
+    loaded = true,
+    path = "/home/piele/.local/share/nvim/site/pack/packer/start/conform.nvim",
+    url = "https://github.com/stevearc/conform.nvim"
+  },
   ["copilot.vim"] = {
     loaded = true,
     path = "/home/piele/.local/share/nvim/site/pack/packer/start/copilot.vim",
@@ -138,11 +143,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/piele/.local/share/nvim/site/pack/packer/start/impatient.nvim",
     url = "https://github.com/lewis6991/impatient.nvim"
-  },
-  ["jest.nvim"] = {
-    loaded = true,
-    path = "/home/piele/.local/share/nvim/site/pack/packer/start/jest.nvim",
-    url = "https://github.com/mattkubej/jest.nvim"
   },
   ["kanagawa.nvim"] = {
     loaded = true,
@@ -183,11 +183,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/piele/.local/share/nvim/site/pack/packer/start/nui.nvim",
     url = "https://github.com/MunifTanjim/nui.nvim"
-  },
-  ["null-ls.nvim"] = {
-    loaded = true,
-    path = "/home/piele/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
-    url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
   },
   ["nvim-autopairs"] = {
     loaded = true,
