@@ -144,11 +144,6 @@ _G.packer_plugins = {
     path = "/home/piele/.local/share/nvim/site/pack/packer/start/impatient.nvim",
     url = "https://github.com/lewis6991/impatient.nvim"
   },
-  ["jest.nvim"] = {
-    loaded = true,
-    path = "/home/piele/.local/share/nvim/site/pack/packer/start/jest.nvim",
-    url = "https://github.com/mattkubej/jest.nvim"
-  },
   ["kanagawa.nvim"] = {
     loaded = true,
     path = "/home/piele/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
@@ -198,11 +193,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/piele/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
-  },
-  ["nvim-lint"] = {
-    loaded = true,
-    path = "/home/piele/.local/share/nvim/site/pack/packer/start/nvim-lint",
-    url = "https://github.com/mfussenegger/nvim-lint"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
