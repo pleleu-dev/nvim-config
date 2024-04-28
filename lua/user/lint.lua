@@ -9,14 +9,8 @@ lint.linters_by_ft = {
   typescript = { "eslint_d" },
   javascriptreact = { "eslint_d" },
   typescriptreact = { "eslint_d" },
-  -- svelte = { "eslint_d" },
-  css = { "stylelint" },
-  html = { "stylelint" },
   json = { "jsonlint" },
-  -- yaml = { "yamllint" },
   markdown = { "markdownlint" },
-  -- graphql = { "graphql" },
-  -- lua = { "lua_ls" },
 }
 
 -- start the linter at BufWritePost (or any other event)
