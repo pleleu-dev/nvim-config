@@ -43,22 +43,9 @@ Be aware the following shortcuts are only working, if you have the plugins insta
     <ctrl>r         Redo last change
     <ctrl>g         Show file info
     <space>e        Toggle FileTree
-    <space>n        Toggle line numbers
-    <space>w        Toggle line wrap
-    <space>c        Toggle colorscheme dark/light
+    <space>n        Toggle Register
     <space>t        Open terminal (close with esc)
-    :PlugInstall    Install plugins which are added to the ~/.config/nvim/init.vim
 
-** Surround **
-
-    Change Surround: cs(alt)(neu)
-    cs"'            Changes " to ' surrounding
-    cs"<p>          Changes " to <p></p>
-    cst"            Changes *t*ags like <p></p> to "
-
-    Delet Surround: ds(alt)
-    ds"             Deletes " surrounding
-    dst             Deletes *t*ag linke <p></p>
 
 **Text search:**
 
@@ -87,13 +74,9 @@ Be aware the following shortcuts are only working, if you have the plugins insta
     (               Sentence backwards
     }               Paragraph forward
     {               Paragraph backwards
+    <ctrl o>        Go back to last cursor
+    <ctrl i>        Go foward in cursor history
 
-**Sessions:**
-
-    :SSave          Save a session
-    :SLoad          Load a session
-    :SDelete        Delete a session
-    :SClose         Close current session
 
 **Split window:**
 
@@ -105,13 +88,6 @@ Be aware the following shortcuts are only working, if you have the plugins insta
     :sf filename            Open file in new window
     :sf <tab>               Search file
 
-**File Search:**
-
-    <ctrl>p         Open fzf fuzzy search
-    <enter>         Open found file in current window
-    <ctrl>t         Open found file in tab split
-    <ctrl>s         Open found file in split
-    <ctrl>v         Open found file in vsplit
 
 ### In INSERT mode
 
@@ -119,6 +95,6 @@ Be aware the following shortcuts are only working, if you have the plugins insta
     <del>           Delete left
     <fn><del>       Delete right
     <ctrl>w         Delete word before cursor
-    <ctrl>u         Delete left until the end of line
+    <ctrl>u         Delete left until the start of line
 
 In .html .xhtml .php files tags will be auto closed. If you want to format them to next line press > again after closing the tag.
