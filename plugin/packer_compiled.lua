@@ -204,11 +204,6 @@ _G.packer_plugins = {
     path = "/home/piele/.local/share/nvim/site/pack/packer/start/nvim-neoclip.lua",
     url = "https://github.com/AckslD/nvim-neoclip.lua"
   },
-  ["nvim-treesitter"] = {
-    loaded = true,
-    path = "/home/piele/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
-    url = "https://github.com/nvim-treesitter/nvim-treesitter"
-  },
   ["nvim-ts-context-commentstring"] = {
     loaded = true,
     path = "/home/piele/.local/share/nvim/site/pack/packer/start/nvim-ts-context-commentstring",

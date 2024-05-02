@@ -80,9 +80,9 @@ return packer.startup(function(use)
   use { "stevearc/conform.nvim" } -- LSP formatter
 
   -- Treesitter
-  use {
-    "nvim-treesitter/nvim-treesitter",
-  }
+  -- use {
+  --   "nvim-treesitter/nvim-treesitter",
+  -- }
 
   -- Tree Explorer
   use { "nvim-neo-tree/neo-tree.nvim",
