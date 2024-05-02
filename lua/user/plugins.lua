@@ -61,16 +61,15 @@ return packer.startup(function(use)
   use { "rebelot/kanagawa.nvim" }
 
   -- Cmp
-  use { "hrsh7th/nvim-cmp" }         -- The completion plugin
-  use { "hrsh7th/cmp-buffer" }       -- buffer completions
-  use { "hrsh7th/cmp-path" }         -- path completions
-  use { "saadparwaiz1/cmp_luasnip" } -- snippet completions
-  use { "hrsh7th/cmp-nvim-lsp" }
-  use { "hrsh7th/cmp-nvim-lua" }
+  use { 'hrsh7th/cmp-buffer' }
+  use { 'hrsh7th/cmp-path' }
+  use { 'hrsh7th/cmp-cmdline' }
+  use { 'hrsh7th/cmp-nvim-lsp' }
+  use { 'hrsh7th/nvim-cmp' }
+  use { 'hrsh7th/cmp-vsnip' }
+  use { 'hrsh7th/vim-vsnip' }
+  use { 'rafamadriz/friendly-snippets' }
 
-  -- Snippets
-  use { "L3MON4D3/LuaSnip" }             --snippet engine
-  use { "rafamadriz/friendly-snippets" } -- a bunch of snippets to use
 
   -- LSP
   use { "neovim/nvim-lspconfig" }   -- enable LSP
